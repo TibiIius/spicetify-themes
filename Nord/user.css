@@ -164,13 +164,15 @@
 }
 
 /*
-Hide the song duration and elapsed text. I dont know where to put those so I just hide them
+Own edit, show at the top right of the player control area
 */
 .view-player .player-controls-container .progress-container .elapsed,
 .view-player .player-controls-container .progress-container .remaining {
-	display: none !important;
+    position: relative;
+    bottom: 2px;
+	font-size: 12px;
+	font-weight: bold;
 }
-
 /* Add round corner for Gerne and Mood cards */
 .gc-image-container,
 .gc-image {
@@ -574,7 +576,7 @@ span.glue-page-header__title-text {
 }
 
 .progress-container .progress-bar-wrapper {
-	top: 0 !important;
+	top: 6px !important;
 	height: 5px;
 }
 
@@ -586,9 +588,7 @@ span.glue-page-header__title-text {
 }
 
 .progress-container .inner {
-	border-radius: 0 2px 2px 0 !important;
 	background-color: var(--modspotify_main_fg) !important;
-	box-shadow: 0 2px 2px 0 var(--modspotify_main_fg);
 }
 
 .glue-page-header__p2s-details,
@@ -666,4 +666,11 @@ body.remotebar .view-player .player-bar-wrapper {
 
 .Header__image-inner {
 	box-shadow: unset;
+}
+
+
+
+/* Move "New Playlist" button up a bit to better integrate with the elapsed time */
+.LeftSidebarNewPlaylistButton__button {
+	margin-bottom: 6px;
 }
