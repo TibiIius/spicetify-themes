@@ -670,3 +670,10 @@ body.remotebar .view-player .player-bar-wrapper {
 .LeftSidebarNewPlaylistButton__button {
 	margin-bottom: 6px;
 }
+
+/* Fix extend cover button in player area */
+
+.view-player .now-playing .cover-image-link .toggle-cover-size {
+  top: -25px !important;
+  right: 15px !important;
+}
