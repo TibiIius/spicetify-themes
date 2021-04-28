@@ -2,10 +2,14 @@
 
 ## Screenshots
 
-![Screenshot](https://i.imgur.com/HjK3Gab.png)
+### Base
 
-## Downloads and Info
+![Base](https://i.imgur.com/HjK3Gab.png)
 
-[color.ini](https://raw.githubusercontent.com/lollilol/spicetify-themes/master/Black/color.ini) [user.css](https://raw.githubusercontent.com/lollilol/spicetify-themes/master/Black/user.css)
+### Purple
+
+![Purple](purple.png)
+
+## Info
 
 Inspired by [Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Dark)

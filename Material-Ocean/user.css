@@ -166,7 +166,7 @@
   margin-top: 0px !important;
 }
 
-/* Own edit, show at the top right of the player control area */ 
+/* Own edit, show at the top right of the player control area */
 .view-player .player-controls-container .progress-container .elapsed,
 .view-player .player-controls-container .progress-container .remaining {
   position: relative;
@@ -668,7 +668,7 @@ body.remotebar .view-player .player-bar-wrapper {
 
 /* Move "New Playlist" button up a bit to better integrate with the elapsed time */
 .LeftSidebarNewPlaylistButton__button {
-	margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 /* Fix extend cover button in player area */
