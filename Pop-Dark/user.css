@@ -12,11 +12,10 @@
 	overflow: hidden !important
 }
 
-/*Hide some annoying elements like profile name and pic, upgrade button and device connect bar at bottom, new playlist button*/
+/*Hide some annoying elements like profile name and pic, upgrade button and device connect bar at bottom*/
 .profile.content-top-bar__profile-link,
 .upgrade-button,
-.view-player .remote-playback-bar,
-.LeftSidebarNewPlaylistButton__button {
+.view-player .remote-playback-bar {
 	display: none !important;
 }
 
